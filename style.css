@@ -1,0 +1,98 @@
+/*
+Theme Name: radity
+Theme URI: http://your-theme-url.com
+Author: Izzettin Umutcan Altinoz
+Author URI: http://your-website.com
+Description: Your theme description.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: your, tags, here
+Text Domain: your-theme-text-domain
+*/
+
+body {
+	background: rgb(239,246,255);
+	background: linear-gradient(270deg, rgba(239,246,255,1) 0%, rgba(246,250,255,1) 100%);
+	font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Example CSS styles for single.php */
+
+/* Heading styles */
+h1 {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Meta information styles */
+.post-meta {
+  color: #999;
+  font-size: 14px;
+}
+
+/* Content styles */
+.post-content {
+  margin-bottom: 20px;
+}
+
+/* Related posts styles */
+.related-posts {
+  margin-top: 30px;
+}
+
+.related-posts h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.related-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-posts li {
+  margin-bottom: 10px;
+}
+
+.related-posts li a {
+  color: #333;
+  text-decoration: none;
+	font-size: 18px;
+    font-weight: 500;
+}
+
+.related-post-thumbnail img {
+  width: 100px;
+  height: auto;
+}
+
+.related-posts li{
+	display: flex;
+	align-items: center;
+}
+
+.post-thumbnail img{
+	width: 100%;
+	height: auto;
+}
+
+.related-post-category{
+	margin-bottom: 0;
+}
+
+.related-post-list{
+	margin-left: 15px !important;
+}
+
+.related-post-list li{
+	margin-bottom: -5px !important;
+}
+
+.related-post-category a{
+    font-size: 12px !important;
+    font-weight: 400 !important;
+	font-style: italic;
+}
